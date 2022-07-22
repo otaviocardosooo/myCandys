@@ -1,36 +1,65 @@
+/* ALTERAÇÕES GERAIS */
 *{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
+
 body{
     background-color: #04082B;
 }
 
-#logo{
-    width: 1.7rem;
-}
-
+/* BACKGROUND START */
 .start{
     height: 100vh;
-    background-image: url("../images/startBackground.png");
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #04082B 100%), url(../../assets/images/startBackground.jpg); 
 }
+
+/* HEADER */
 header{
-    padding: 25px;
+    padding: 1.563rem;
 }
 header nav ul{
     display: flex;
     color: white;
     list-style: none;
     align-items: center;
+    margin-bottom: 0;
 }
-
 header nav ul li{
-    padding: 0 25px;
+    padding: 0 1.563rem;
+}
+header nav ul li a{
+    font-size: 1.125rem;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header nav ul li a:hover{
+    color: gray;
+}
+#logo{
+    width: 1.7rem;
 }
 
+/* CONTEÚDO START */
+.container{
+    display: flex;
+}
 .title{
+    display: flex;
+    flex-direction: column;
+}
+.textTitle{
+    font-size: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
-    text-align: center;
-    padding-top: 150px;
+}
+.subtitle{
+    font-size: 25px;
+}
+
+.products-button{
+    padding: 25px;
+    color: white;
+    background-color: blue;
 }

@@ -7,26 +7,45 @@
     <title>myCandys</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>     
     <div class="start">
-        <header class="nav justify-content-center">
+        <header class="d-flex justify-content-center">
             <nav>
                 <ul>
-                    <li><a>Home</a></li>
-                    <li><a>Produtos</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="products.php">Produtos</a></li>
                     <img src="./assets/images/umbrella.png" alt="Logo" id="logo">
-                    <li><a>Sobre Nós</a></li>
-                    <li><a>Contato</a></li>
+                    <li><a href="about.php">Sobre Nós</a></li>
+                    <li><a href="contact.php">Contato</a></li>
                 </ul>
             </nav>
         </header>
-        <div class="container title">
-                <h1>myCandy's</h1>
-                <h4>Melhor Qualidade, Melhor Sabor, Melhor Entrega</h4>
+        <div class="container>
+            <div class="title d-flex align-items-center texts">
+                <h1 class="textTitle">myCandy's</h1>
+                <h4 class="textTitle subtitle">Melhor Qualidade, Melhor Sabor, Melhor Entrega</h4>
+                <button class="products-button">Produtos</button>
+            </div>
+            <div class="image">
+                <img src="" alt="...">
+            </div>
         </div>
     </div>
 <main>
+    <h1>Sobre Nós</h1>
+    <div class="content-1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+        <img src="" alt="...">
+    </div>
+    <div class="content-2">
+        
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+</p>
 </main>
 <footer>
 
